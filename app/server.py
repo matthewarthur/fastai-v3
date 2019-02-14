@@ -8,10 +8,20 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1TyjDHLIo9LMAke7KEE2i3fs1TAmZEyp2'
-export_file_name = 'export_flowers_102.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=15gv6xOwjKcP2qlXl6qsWyU80ZW_Qk4C9'
+export_file_name = 'export_flowers_2.pkl'
 
-classes = ['tulip', 'zinnia']
+classes = ['dahlia',
+ 'eggplant',
+ 'eggplantblight',
+ 'helianthus',
+ 'lisianthus',
+ 'orgtomatoes',
+ 'peony',
+ 'ranunculus',
+ 'sunflower',
+ 'thrips',
+ 'zinnia']
 path = Path(__file__).parent
 
 app = Starlette()
